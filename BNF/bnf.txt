@@ -1,0 +1,29 @@
+<digito>::= 0|1|2|3|4|5|6|7|8|9|
+
+<alfamin>::= a|b|c|d|e|f|g|h|i|j|k|l|ll|m|n|ñ|o|p|q|r|s|t|u|v|w|x|y|z|
+
+<alfamay>::=A|B|C|D|E|F|G|H|I|J|K|L|Ll|O|P|Q|R|S|T|U|V|W|X|Y|Z
+
+<variable>::= <alfa>|<alfa><digito>|
+
+<operador>::= +|-|*|/
+
+<operador relacional>::= =|<>|<|>|<=|>=
+
+<expresion>::= <variable>|<digito>
+
+<decision>::= if<cond> then <sentencia> else <sentencia>
+
+<cond>::= <variable><operador relacional><expresion>
+
+<caso>::=<sentencia>
+
+<sentencia>::=<variable> :=<expresion>
+
+<Bucle mientras>::=while<cond> do<sentencia>
+
+<Bucle para>::=for<cond> to<expresion> do<sentencia>
+
+<Alternativas>::=case<expresion> of<caso> else<sentencia>end
+
+
